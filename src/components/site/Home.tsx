@@ -10,6 +10,7 @@ import martinaAsset from "@/assets/martina.jpg.asset.json";
 import michelleAsset from "@/assets/michelle.jpg.asset.json";
 import event1Asset from "@/assets/event1.jpg.asset.json";
 import event2Asset from "@/assets/event2.jpg.asset.json";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 const NAVY = "#07192b";
 
@@ -24,14 +25,12 @@ const NAV = [
 
 function Logo() {
   return (
-    <a href="#start" className="flex items-center gap-4 group">
-      <span className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-[#c89b4a]">
-        <span className="font-serif italic text-[#c89b4a] text-2xl leading-none">S</span>
-      </span>
-      <span className="flex flex-col leading-none">
-        <span className="font-serif text-white text-[15px] tracking-[0.25em]">CONVENTION-SERVICE</span>
-        <span className="mt-1.5 text-[11px] tracking-[0.5em] text-[#c89b4a]">SPANGENBERG</span>
-      </span>
+    <a href="#start" className="flex items-center group">
+      <img
+        src={logoAsset.url}
+        alt="Convention-Service Spangenberg"
+        className="h-14 w-auto object-contain"
+      />
     </a>
   );
 }

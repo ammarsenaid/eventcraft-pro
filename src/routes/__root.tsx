@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 function NotFoundComponent() {
   return (
@@ -77,20 +78,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Convention-Service Spangenberg" },
+      { name: "description", content: "Professionelle Eventorganisation, Kongresse und Tagungen. Convention-Service Spangenberg — Ihr Partner für perfekte Veranstaltungen seit über 30 Jahren." },
+      { name: "author", content: "Convention-Service Spangenberg" },
+      { property: "og:title", content: "Convention-Service Spangenberg" },
+      { property: "og:description", content: "Professionelle Eventorganisation, Kongresse und Tagungen. Ihr Partner für perfekte Veranstaltungen seit über 30 Jahren." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "icon", type: "image/png", href: logoAsset.url },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
