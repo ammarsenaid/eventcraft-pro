@@ -10,6 +10,7 @@ import martinaAsset from "@/assets/martina.jpg.asset.json";
 import michelleAsset from "@/assets/michelle.jpg.asset.json";
 import event1Asset from "@/assets/event1.jpg.asset.json";
 import event2Asset from "@/assets/event2.jpg.asset.json";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 const NAVY = "#07192b";
 
