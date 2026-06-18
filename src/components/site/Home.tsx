@@ -496,13 +496,9 @@ function Contact() {
                     className="w-full rounded-lg border border-[#07192b]/15 bg-white px-4 py-3 text-[#07192b] focus:border-[#c89b4a] focus:ring-2 focus:ring-[#c89b4a]/20 outline-none transition"
                   />
                 </div>
-                <div className="mt-8">
-                  <CtaButton href="#" >Anfrage senden</CtaButton>
-                  <button type="submit" className="hidden" />
-                </div>
                 <button
                   type="submit"
-                  className="mt-3 w-full sm:w-auto inline-flex items-center justify-center gap-3 rounded-full bg-[#c89b4a] px-7 py-3.5 text-[15px] font-medium text-white hover:bg-[#b8893a] transition-colors"
+                  className="mt-8 w-full sm:w-auto inline-flex items-center justify-center gap-3 rounded-full bg-[#c89b4a] px-7 py-3.5 text-[15px] font-medium text-white hover:bg-[#b8893a] transition-colors shadow-[0_8px_30px_-10px_rgba(200,155,74,0.6)]"
                 >
                   Anfrage senden <ArrowRight className="h-4 w-4" />
                 </button>
