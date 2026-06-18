@@ -12,8 +12,6 @@ import event1Asset from "@/assets/event1.jpg.asset.json";
 import event2Asset from "@/assets/event2.jpg.asset.json";
 
 const NAVY = "#07192b";
-const GOLD = "#c89b4a";
-const IVORY = "#f5efe4";
 
 const NAV = [
   { href: "#start", label: "Start" },
