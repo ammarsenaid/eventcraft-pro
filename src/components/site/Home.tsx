@@ -5,12 +5,12 @@ import {
   Linkedin, Twitter, Instagram, Quote, ClipboardList, Headphones,
   Mic2, Hotel, Cog, Wallet, Crown, BarChart3, MapPinned, Sparkles,
 } from "lucide-react";
-import michaelAsset from "@/assets/michael.jpg.asset.json";
-import martinaAsset from "@/assets/martina.jpg.asset.json";
-import michelleAsset from "@/assets/michelle.jpg.asset.json";
-import event1Asset from "@/assets/event1.jpg.asset.json";
-import event2Asset from "@/assets/event2.jpg.asset.json";
-import logoAsset from "@/assets/logo.png.asset.json";
+const logoAsset = { url: "/images/logo.png" };
+const michaelAsset = { url: "/images/michael.jpg" };
+const martinaAsset = { url: "/images/martina.jpg" };
+const michelleAsset = { url: "/images/michelle.jpg" };
+const event1Asset = { url: "/images/event1.jpg" };
+const event2Asset = { url: "/images/event2.jpg" };
 
 const NAVY = "#07192b";
 
