@@ -148,5 +148,34 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .navy { background-color: #07192b; }
+  .text-navy { color: #07192b; }
+  .gold { color: #c89b4a; }
+  .bg-gold { background-color: #c89b4a; }
+  .border-gold { border-color: #c89b4a; }
+  .ivory { background-color: #faf7f1; }
+
+  .fade-in {
+    animation: fadeUp 0.8s ease-out both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 }
