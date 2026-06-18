@@ -2,7 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import {
   Menu, X, Calendar, Users, Cog, Wallet, MapPin, Crown,
   Phone, Mail, MapPinned, ArrowRight, Check, Sparkles,
-  ClipboardList, Mic2, BarChart3, HeadphonesIcon, Hotel, Star,
+  ClipboardList, Mic2, BarChart3, Headphones, Hotel, Star,
 } from "lucide-react";
 import michaelAsset from "@/assets/michael.jpg.asset.json";
 import martinaAsset from "@/assets/martina.jpg.asset.json";
@@ -223,7 +223,7 @@ function Stats() {
 }
 
 const ABOUT_FEATURES = [
-  { icon: HeadphonesIcon, title: "Persönlich", text: "Direkter Kontakt, individuelle Betreuung – auf Augenhöhe." },
+  { icon: Headphones, title: "Persönlich", text: "Direkter Kontakt, individuelle Betreuung – auf Augenhöhe." },
   { icon: ClipboardList, title: "Strukturiert", text: "Klare Prozesse, transparente Planung, durchdachte Abläufe." },
   { icon: Check, title: "Zuverlässig", text: "Termintreue, Budgetdisziplin und Qualität bis ins Detail." },
 ];
